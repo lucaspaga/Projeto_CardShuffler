@@ -52,39 +52,33 @@ def debounce(pin_object, tempo_debounce_ms=50):
     time.sleep_ms(tempo_debounce_ms)
     return pin_object.value() == 0
 
-print("Sistema de controle do motor com botões e OLED iniciado.")
+
 parar_motor()
 
 try:
     while True:
         if botao1.value() == 0:
             if debounce(botao1):
-                print("\nBotão 1 Pressionado: Acionando motor por 2 segundos.")
-                girar_motor(2, 1)
+                girar_motor(10, 1)
                 while botao1.value() == 0:
                     time.sleep_ms(10)
 
         if botao2.value() == 0:
             if debounce(botao2):
-                print("\nBotão 2 Pressionado: Acionando motor por 5 segundos.")
-                girar_motor(5, 2)
+                girar_motor(12, 2)
                 while botao2.value() == 0:
                     time.sleep_ms(10)
 
         if botao3.value() == 0:
             if debounce(botao3):
-                print("\nBotão 3 Pressionado: Acionando motor por 10 segundos.")
-                girar_motor(10, 3)
+                girar_motor(15, 3)
                 while botao3.value() == 0:
                     time.sleep_ms(10)
 
         time.sleep_ms(10)
 
-except KeyboardInterrupt:
-    print("\nPrograma interrompido pelo usuário.")
 finally:
     parar_motor()
     oled.fill(0)
     oled.text("PROGRAMA FINALIZADO", 0, 0, 1)
     oled.show()
-    print("Limpeza: Motor parado e OLED desligado.")
