@@ -41,7 +41,7 @@ O usuário interage com o embaralhador através de três botões. Cada botão é
 
 ## Video Explicativo
 
-<video width="640" height="360" controls>
-  <source src="./VIDEO-2025-06-04-21-50-30~1.mp4" type="video/mp4">
-  Seu navegador não suporta a tag de vídeo.
-</video>
+
+https://github.com/user-attachments/assets/651e70eb-4ea7-4535-9343-22e7a49855a8
+
+
