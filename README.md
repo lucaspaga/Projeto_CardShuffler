@@ -38,3 +38,10 @@ O usuário interage com o embaralhador através de três botões. Cada botão é
 ## Diagrama de Blocos do Sistema
 
 ![Diagrama de Blocos](Diagrama.png)
+
+## Video Explicativo
+
+<video width="640" height="360" controls>
+  <source src="./VIDEO-2025-06-04-21-50-30~1.mp4" type="video/mp4">
+  Seu navegador não suporta a tag de vídeo.
+</video>
