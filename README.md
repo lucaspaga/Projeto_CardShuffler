@@ -1,4 +1,9 @@
 # 🃏 Card Shuffler - Embaralhador de Cartas Motorizado e Inteligente
+## Integrantes
+
+* Tiago Sousa Amando de Barros - 22.01117-0
+* Felipe Massao Miranda Kamikawa - 22.00299-5
+* Lucas Castanho Paganotto Carvalho - 22.00921-3
 
 ## Visão Geral do Projeto
 
